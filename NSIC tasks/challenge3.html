@@ -1,41 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Form</title>
+    <title>Bug 03</title>
 </head>
 <body>
-    <h2>College Registration Form</h2>
-    <form action="https://docs.google.com/forms/d/e/YOUR_GOOGLE_FORM_ID/formResponse" method="post" target="_self">
-        <!-- Name -->
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="entry.NAME_FIELD_ID" required><br><br>
-
-        <!-- Registration Number -->
-        <label for="regno">Registration Number:</label><br>
-        <input type="text" id="regno" name="entry.REGNO_FIELD_ID" required><br><br>
-
-        <!-- Gender -->
-        <label>Gender:</label><br>
-        <input type="radio" id="male" name="entry.GENDER_FIELD_ID" value="Male" required>
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="entry.GENDER_FIELD_ID" value="Female">
-        <label for="female">Female</label><br><br>
-
-        <!-- Phone Number -->
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="entry.PHONE_FIELD_ID" required><br><br>
-
-        <!-- College -->
-        <label for="college">College:</label><br>
-        <input type="text" id="college" name="entry.COLLEGE_FIELD_ID" required><br><br>
-
-        <!-- Department -->
-        <label for="department">Department:</label><br>
-        <input type="text" id="department" name="entry.DEPARTMENT_FIELD_ID" required><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
+    <h1>Navigation</h1>
+    <nav>
+        <a href="#">Link without href</a>
+        <ul>
+            <li><a href="page.html">Page</a></li>
+            <!--Added href and closed </a>-->
+        </ul>
+    </nav>
 </body>
 </html>
